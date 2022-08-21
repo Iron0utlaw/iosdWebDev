@@ -1,0 +1,20 @@
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tl {
+    font-size: 8.68rem;
+}
+
+.name {
+    font-size: 3rem;
+}
+
+.hero_text {
+    text-align: right;
+    padding-right: 5%;
+    height: fit-content;
+    transform: translateY(36vh);
+}

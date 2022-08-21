@@ -1,0 +1,57 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 2.5rem;
+    position: fixed;
+    height: 100vh;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.child,
+.child0,
+.child2 {
+    display: flex;
+}
+
+.child {
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+}
+
+.child0,
+.child,
+.child2 {
+    background-color: black;
+    color: #F2E5D7;
+    padding: 0.625rem;
+    border-radius: 50px;
+    transition: 2.5s;
+    height: 2.625rem;
+    max-width: 2.625rem;
+}
+
+.nav_text {
+    display: none;
+}
+
+.child0:hover,
+.child:hover,
+.child2:hover {
+    max-width: 500px;
+}
+
+.nav_text {
+    padding: 0.2rem 1rem 0 1rem;
+}
+
+.child0:hover>.nav_text,
+.child:hover>.nav_text,
+.child2:hover>.nav_text {
+    display: block;
+}
