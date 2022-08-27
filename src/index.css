@@ -17,3 +17,13 @@ body {
 ::-webkit-scrollbar {
     display: none;
 }
+
+html {
+    scroll-behavior: smooth;
+    font-size: 100%;
+}
+
+@font-face {
+    font-family: 'Zubayr';
+    src: local('Zubayr'), url(./assets/Zubayr.ttf) format('truetype');
+}
