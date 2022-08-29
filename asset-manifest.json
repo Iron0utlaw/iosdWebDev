@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/iosdWebDev/static/css/main.bf39258e.css",
+    "main.css": "/iosdWebDev/static/css/main.cfd4caee.css",
     "main.js": "/iosdWebDev/static/js/main.2f8a3af3.js",
     "static/media/cv.pdf": "/iosdWebDev/static/media/cv.1676dcdc83730930d888.pdf",
     "static/media/Zubayr.ttf": "/iosdWebDev/static/media/Zubayr.c83db4286385582be8f8.ttf",
     "index.html": "/iosdWebDev/index.html",
-    "main.bf39258e.css.map": "/iosdWebDev/static/css/main.bf39258e.css.map",
+    "main.cfd4caee.css.map": "/iosdWebDev/static/css/main.cfd4caee.css.map",
     "main.2f8a3af3.js.map": "/iosdWebDev/static/js/main.2f8a3af3.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf39258e.css",
+    "static/css/main.cfd4caee.css",
     "static/js/main.2f8a3af3.js"
   ]
 }
