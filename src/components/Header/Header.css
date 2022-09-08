@@ -10,7 +10,7 @@
 
 .header a {
     text-decoration: none;
-    color: black;
+    color: var(--black);
     height: fit-content;
     font-size: 20px;
 }
@@ -35,8 +35,8 @@
 .child0,
 .child,
 .child2 {
-    background-color: black;
-    color: #F2E5D7;
+    background-color: var(--black);
+    color: var(--be);
     padding: 0.625rem;
     border-radius: 50px;
     transition: 2.5s;

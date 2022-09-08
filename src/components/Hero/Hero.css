@@ -9,7 +9,7 @@
 }
 
 .name {
-    font-size: 3rem;
+    font-size: 3vw;
 }
 
 .hero_text {
@@ -20,7 +20,8 @@
 }
 
 #logo {
-    width: 70vw;
+    width: 60vw;
+    height: auto;
     animation: fi 0.5s ease-in forwards 3s;
 }
 
@@ -118,7 +119,7 @@
     }
 
     .tl:before {
-        content: "Web Devloper";
+        content: "Web Developer";
         font-size: 4rem;
     }
 

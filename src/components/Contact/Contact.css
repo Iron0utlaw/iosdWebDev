@@ -1,5 +1,5 @@
 .heading {
-    background: #000000;
+    background: var(--black);
     text-align: center;
     padding: 42px 33% 59px 33%;
     margin-top: 100px;
@@ -8,11 +8,11 @@
 .heading h1 {
     font-weight: 700;
     font-size: 75px;
-    color: #F2E5D7;
+    color: var(--be);
 }
 
 .contact__options a {
-    color: black;
+    color: var(--black);
 }
 
 .contact__container {
@@ -32,13 +32,13 @@
 }
 
 .contact__option {
-    background: #000000;
+    background: var(--black);
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
     border: 1px solid transparent;
     box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.25);
-    color: #F2E5D7;
+    color: var(--be);
 }
 
 .contact-icon {
@@ -50,7 +50,7 @@
     margin-top: 0.7rem;
     display: inline-block;
     font-size: 1rem;
-    color: #F2E5D7;
+    color: var(--be);
 }
 
 form {
@@ -65,21 +65,21 @@ textarea {
     padding: 1.5rem;
     border-radius: 0.5rem;
     background: transparent;
-    border: 1px solid #000000;
+    border: 1px solid var(--black);
     resize: none;
-    color: #000000;
+    color: var(--black);
 }
 
 .contact__container button {
     width: 200px;
     height: 60px;
-    background-color: #000000;
+    background-color: var(--black);
     border: none;
     border-radius: 10px;
     font-size: 18px;
     font-weight: 600;
     cursor: pointer;
-    color: #F2E5D7;
+    color: var(--be);
 }
 
 .email h4:before {
